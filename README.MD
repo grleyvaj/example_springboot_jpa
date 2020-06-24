@@ -1,4 +1,4 @@
-# DemoConsoleApplication
+# SpringBootExampleApplication
 This is a project with the implementation of a simple REST API with its basic methods (GET, POST, PUT, DELETE) using a component based architecture (best practices and design principles with Driver Domain Design)
 
 Technologies used: Spring Boot and HATEOAS for API REST, JPA in persistence, Spring Rest Docs for API documentation, and lombok. 
