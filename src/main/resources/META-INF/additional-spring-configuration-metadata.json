@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "DEFAULT_PAGE_NUMBER",
+      "type": "java.lang.String",
+      "description": "Description for DEFAULT_PAGE_NUMBER."
+  }
+] }

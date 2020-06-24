@@ -1,0 +1,67 @@
+= **API REST documentation**
+:author: Gloria Raquel Leyva Jerez
+:email: leyvajerezgr@gmail.com
+:revnumber: v1.1
+:revdate: 29.04.2020
+:revremark: First draft
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+:highlightjs-theme: atelier-seaside-dark
+:toc: left
+:toclevels: 2
+:sectlinks:
+//:sectnums:
+:docinfo1:
+
+[[overview-http-verbs]]
+== General information
+=== HTTP verbs
+
+This API REST tries to adhere as closely as possible to standard HTTP and REST conventions in its
+use of HTTP verbs.
+
+include::verb.adoc[]
+
+=== HTTP status
+This API REST notes tries to adhere as closely as possible to standard HTTP and REST conventions in its
+use of HTTP status codes.
+
+include::status.adoc[]
+
+[[overview-hypermedia]]
+== Student API
+The API manages has a CRUD for students.
+
+[%collapsible]
+====
+Example block turns into collapsible summary/details.
+====
+
+. {blank}
++
+----
+$ asciidoctor sample.adoc
+$
+----
+
+=== Get Student By Id
+{cl-get} Obtains a specific student by its unique identifier.
+
+==== Sample Request
+include::{snippets}/student/get-student-by-id/http-request.adoc[]
+
+==== Sample Response
+include::{snippets}/student/get-student-by-id/http-response.adoc[]
+
+=== Delete Student By Id
+{cl-delete} Delete a specific student by its unique identifier.
+
+==== Sample Request
+include::{snippets}/student/delete-student-by-id/http-request.adoc[]
+
+==== Parameter description
+include::{snippets}/student/delete-student-by-id/path-parameters.adoc[]
+
+==== Sample Response
+include::{snippets}/student/delete-student-by-id/http-response.adoc[]

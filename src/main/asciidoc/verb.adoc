@@ -1,0 +1,9 @@
+:cl-get: pass:q[[.label.get]#GET:#]
+:cl-added: pass:quotes[[.label.added]#POST:#]
+:cl-updated: pass:q[[.label.updated]#PUT:#]
+:cl-delete: pass:q[[.label.delete]#DELETE:#]
+
+* {cl-get} Definition of attributes to include more options.
+* {cl-added} Used to create a new resource.
+* {cl-updated}  Used to update an existing resource.
+* {cl-delete}  Used to delete an existing resource.
